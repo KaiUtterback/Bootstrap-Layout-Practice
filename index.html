@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Solutions - Services</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .service-card {
+      margin-bottom: 30px;
+    }
+    .contact-form {
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header class="my-5">
+      <h1 class="text-center">Tech Solutions</h1>
+      <p class="text-center">Your reliable tech partner</p>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services" class="my-5">
+      <h2 class="text-center mb-4">Our Services</h2>
+      <div class="row">
+        <!-- Service 1 -->
+        <div class="col-md-4 service-card">
+          <div class="card text-center">
+            <img src="path-to-icon1.png" class="card-img-top mx-auto d-block mt-3" alt="Service 1 Icon" style="width: 50px;">
+            <div class="card-body">
+              <h5 class="card-title">Service One</h5>
+              <p class="card-text">Description of service one. Brief and engaging.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Service 2 -->
+        <div class="col-md-4 service-card">
+          <div class="card text-center">
+            <img src="path-to-icon2.png" class="card-img-top mx-auto d-block mt-3" alt="Service 2 Icon" style="width: 50px;">
+            <div class="card-body">
+              <h5 class="card-title">Service Two</h5>
+              <p class="card-text">Description of service two. Brief and engaging.</p>
+            </div>
+          </div>
+        </div>
+        <!-- Service 3 -->
+        <div class="col-md-4 service-card">
+          <div class="card text-center">
+            <img src="path-to-icon3.png" class="card-img-top mx-auto d-block mt-3" alt="Service 3 Icon" style="width: 50px;">
+            <div class="card-body">
+              <h5 class="card-title">Service Three</h5>
+              <p class="card-text">Description of service three. Brief and engaging.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact-form">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Your Email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="service">Service Interested In</label>
+          <select id="service" class="form-control">
+            <option selected>Choose...</option>
+            <option>Service One</option>
+            <option>Service Two</option>
+            <option>Service Three</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      </form>
+    </section>
+  </div>
+
+  <!-- Bootstrap JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
