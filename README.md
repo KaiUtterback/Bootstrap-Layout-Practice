@@ -1,5 +1,3 @@
-Sure, here's a README file that you can use for both projects:
-
 ## Project: Tech Solutions Webpage
 
 ### Overview
