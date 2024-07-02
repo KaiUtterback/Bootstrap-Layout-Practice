@@ -61,8 +61,5 @@ This project aims to create a responsive and visually appealing webpage for a fi
 This project is licensed under the MIT License. Feel free to use and modify the code as per your requirements.
 
 ### Author
-Developed by [Your Name]. Feel free to reach out for any questions or collaboration opportunities.
+Developed by [Kai Utterback]. Feel free to reach out for any questions or collaboration opportunities.
 
----
-
-This README file provides an overview of the projects, instructions on how to run them, and information on customization and licensing.
