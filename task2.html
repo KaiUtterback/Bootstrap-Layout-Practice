@@ -9,57 +9,100 @@
 </head>
 <body>
 
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">Tech Solutions</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
   <!-- Header and Intro Section -->
-  <header class="bg-dark text-white text-center d-flex align-items-center justify-content-center" style="height: 100vh;">
-    <div>
+  <header class="bg-primary text-white text-center d-flex align-items-center justify-content-center" style="height: 100vh; background: url('path-to-header-image.jpg') no-repeat center center; background-size: cover;">
+    <div class="p-4" style="background: rgba(0, 0, 0, 0.5);">
       <h1>Welcome to Tech Solutions</h1>
       <p>Your reliable tech partner</p>
+      <a href="#services" class="btn btn-light mt-3">Explore Our Services</a>
     </div>
   </header>
 
   <!-- Featurette Section -->
-  <section class="container my-5">
+  <section id="services" class="container my-5">
     <h2 class="text-center mb-4">Our Features</h2>
     <div class="row">
       <!-- Feature 1 -->
       <div class="col-md-4 text-center mb-4">
-        <img src="path-to-icon1.png" class="mb-3" alt="Feature 1 Icon" style="width: 50px;">
-        <h5>Feature One</h5>
-        <p>Brief description of feature one. Engaging and concise.</p>
+        <div class="card border-0">
+          <div class="card-body">
+            <img src="path-to-icon1.png" class="mb-3" alt="Feature 1 Icon" style="width: 50px;">
+            <h5 class="card-title">Feature One</h5>
+            <p class="card-text">Brief description of feature one. Engaging and concise.</p>
+          </div>
+        </div>
       </div>
       <!-- Feature 2 -->
       <div class="col-md-4 text-center mb-4">
-        <img src="path-to-icon2.png" class="mb-3" alt="Feature 2 Icon" style="width: 50px;">
-        <h5>Feature Two</h5>
-        <p>Brief description of feature two. Engaging and concise.</p>
+        <div class="card border-0">
+          <div class="card-body">
+            <img src="path-to-icon2.png" class="mb-3" alt="Feature 2 Icon" style="width: 50px;">
+            <h5 class="card-title">Feature Two</h5>
+            <p class="card-text">Brief description of feature two. Engaging and concise.</p>
+          </div>
+        </div>
       </div>
       <!-- Feature 3 -->
       <div class="col-md-4 text-center mb-4">
-        <img src="path-to-icon3.png" class="mb-3" alt="Feature 3 Icon" style="width: 50px;">
-        <h5>Feature Three</h5>
-        <p>Brief description of feature three. Engaging and concise.</p>
+        <div class="card border-0">
+          <div class="card-body">
+            <img src="path-to-icon3.png" class="mb-3" alt="Feature 3 Icon" style="width: 50px;">
+            <h5 class="card-title">Feature Three</h5>
+            <p class="card-text">Brief description of feature three. Engaging and concise.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- About Section with Sidebar -->
-  <section class="container my-5">
+  <section id="about" class="container my-5">
     <div class="row">
       <!-- Main Content -->
       <div class="col-md-8 mb-4">
         <h2>About Us</h2>
         <p>Main content about the company. Detailed and informative.</p>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Our Mission</li>
+          <li class="list-group-item">Our Vision</li>
+          <li class="list-group-item">Our Values</li>
+        </ul>
       </div>
       <!-- Sidebar -->
       <div class="col-md-4 mb-4">
         <h2>Sidebar</h2>
         <p>Additional information or links. Useful and relevant.</p>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Link 1</a></li>
+              <li><a href="#">Link 2</a></li>
+              <li><a href="#">Link 3</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- Footer with Grid Layout -->
-  <footer class="bg-light py-4">
+  <footer class="bg-dark text-white py-4">
     <div class="container">
       <div class="row">
         <!-- Contact Information -->
@@ -71,7 +114,11 @@
         <!-- Social Media Links -->
         <div class="col-md-4 mb-4">
           <h5>Follow Us</h5>
-          <p>Facebook | Twitter | LinkedIn</p>
+          <p>
+            <a href="#" class="text-white mr-2">Facebook</a>
+            <a href="#" class="text-white mr-2">Twitter</a>
+            <a href="#" class="text-white">LinkedIn</a>
+          </p>
         </div>
         <!-- Newsletter Signup -->
         <div class="col-md-4 mb-4">
